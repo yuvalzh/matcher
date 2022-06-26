@@ -13,6 +13,12 @@ Get the latest version of Python at https://www.python.org/downloads/ or with yo
 
 ### installs Django
 
+create a directory django in your current directory
+
+```
+git clone https://github.com/django/django.git
+```
+
 This is the recommended way to install Django:
 
 ```
@@ -20,7 +26,7 @@ $ python -m pip install Django
 $ python -m pip install -e django/
 ```
 
-### Connecting Databases with Django project MySQLClient
+### Connect MySQL databases to Django project
 
 Install mysqlclient using pip-
 
