@@ -52,19 +52,9 @@ $ python manage.py runserver
 
 By default, the runserver command starts the development server on the internal IP at port 8000.
 
-<<<<<<< HEAD
-
 ### Models diagram
 
 ![image](https://user-images.githubusercontent.com/44950256/175806962-fba61345-29c0-4dd5-b882-a67d9cf5819a.png)
-
-=======
-
-### Models diagram
-
-![image](https://user-images.githubusercontent.com/44950256/175806962-fba61345-29c0-4dd5-b882-a67d9cf5819a.png)
-
-> > > > > > > 4123ce9e7052ddd8d47ed4a6826834e379290cb8
 
 ## Server -
 
@@ -92,12 +82,6 @@ GET/matcherProject/findBestCandidates/?job_title=software developer
 
 (1, 'software developer')
 (2, 'software developer')
-
-<<<<<<< HEAD
-
-=======
-
-> > > > > > > 4123ce9e7052ddd8d47ed4a6826834e379290cb8
 
 ## Bonus:
 
