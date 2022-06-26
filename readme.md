@@ -28,16 +28,19 @@ $ python -m pip install -e django/
 
 ### Connect MySQL databases to Django project
 
+downlods MySQL community -
+https://dev.mysql.com/downloads/installer/
+
 Install mysqlclient using pip-
 
 ```
-$pip install mysqlclient
+$ pip install mysqlclient
 ```
 
 Create a database in MySQL, Open MySQL command line client
 
 ```
-mysql1> CREATE DATABASE matcher
+mysql1> CREATE DATABASE matcher;
 ```
 
 ## Run the server
@@ -81,7 +84,7 @@ The response is a list of candidates if there are ones
 #### Request -
 
 ```
-GET/matcherProject/findBestCandidates/?job_title=software developer
+http://localhost:9000/matcherProject/findBestCandidates/?job_title=software developer
 ```
 
 #### Response-
