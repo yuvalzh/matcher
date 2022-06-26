@@ -21,6 +21,19 @@ $ python -m pip install Django
 $ python -m pip install -e django/
 ```
 
+### Connecting Databases with Django project MySQLClient
+
+Install mysqlclient using pip-
+```
+$pip install mysqlclient
+```
+
+Create a database in MySQL, Open MySQL command line client 
+```
+mysql1> CREATE DATABASE matcher
+```
+
+
 ## Run the server
 
 Open PowerShell in the project.
@@ -36,24 +49,24 @@ $ python manage.py runserver
 ```
 By default, the runserver command starts the development server on the internal IP at port 8000.
 
-### Server - 
+
+### Models diagram 
+![image](https://user-images.githubusercontent.com/44950256/175806962-fba61345-29c0-4dd5-b882-a67d9cf5819a.png)
+
+
+
+## Server - 
 The server implemented using Django and provide one endpoint.
 
-
-
-#### Search route
+### Search route
 
 This endpoint provides search mechanism for candidates. 
 ```
 GET/matcherProject/findBestCandidates/?job_title =${JOB_TITLE}
 ```
-
-#### Response
 The response is a list of candidates if there are ones
 
-#### For example 
-The response is a list of candidates if there are ones
-
+### For example 
 #### Request - 
 ```
 GET/matcherProject/findBestCandidates/?job_title=software developer
@@ -62,7 +75,8 @@ GET/matcherProject/findBestCandidates/?job_title=software developer
 (1, 'software developer')
 (2, 'software developer')
 
-#### Bonus:
+
+## Bonus:
 
 When I got this task, I started to read a little bit about full text search and indexing,
 I understand that these topics are not so familiar with rational DBs.
