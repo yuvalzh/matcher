@@ -6,13 +6,13 @@ The goal of this project is to provide a plan that will find candidates whose ma
 The project is written with python 3.10.5 using django framework 4.2.0
 
 
-### Installations
+## Installations
 
-#### installs Python
+### installs Python
 
 Get the latest version of Python at https://www.python.org/downloads/ or with your operating system’s package manager.
 
-#### installs Django
+### installs Django
 
 This is the recommended way to install Django:
 
@@ -21,7 +21,7 @@ $ python -m pip install Django
 $ python -m pip install -e django/
 ```
 
-### Run the server
+## Run the server
 
 Open PowerShell in the project.
 
@@ -44,26 +44,25 @@ The server implemented using Django and provide one endpoint.
 #### Search route
 
 This endpoint provides search mechanism for candidates. 
-#####Search route
 ```
 GET/matcherProject/findBestCandidates/?job_title =${JOB_TITLE}
 ```
 
-#####Response
+#### Response
 The response is a list of candidates if there are ones
 
-#####For example 
+#### For example 
 The response is a list of candidates if there are ones
 
-#####Request - 
+#### Request - 
 ```
 GET/matcherProject/findBestCandidates/?job_title=software developer
 ```
-#####Response- 
+#### Response- 
 (1, 'software developer')
 (2, 'software developer')
 
-#####Bonus:
+#### Bonus:
 
 When I got this task, I started to read a little bit about full text search and indexing,
 I understand that these topics are not so familiar with rational DBs.
