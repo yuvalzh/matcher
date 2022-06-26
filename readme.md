@@ -39,24 +39,18 @@ By default, the runserver command starts the development server on the internal 
 ### Models diagram 
 ![image](https://user-images.githubusercontent.com/44950256/175806962-fba61345-29c0-4dd5-b882-a67d9cf5819a.png)
 
-### Server - 
+## Server - 
 The server implemented using Django and provide one endpoint.
 
-
-
-#### Search route
+### Search route
 
 This endpoint provides search mechanism for candidates. 
 ```
 GET/matcherProject/findBestCandidates/?job_title =${JOB_TITLE}
 ```
-
-#### Response
 The response is a list of candidates if there are ones
 
-#### For example 
-The response is a list of candidates if there are ones
-
+### For example 
 #### Request - 
 ```
 GET/matcherProject/findBestCandidates/?job_title=software developer
@@ -65,7 +59,7 @@ GET/matcherProject/findBestCandidates/?job_title=software developer
 (1, 'software developer')
 (2, 'software developer')
 
-#### Bonus:
+## Bonus:
 
 When I got this task, I started to read a little bit about full text search and indexing,
 I understand that these topics are not so familiar with rational DBs.
