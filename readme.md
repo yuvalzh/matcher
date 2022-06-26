@@ -36,6 +36,9 @@ $ python manage.py runserver
 ```
 By default, the runserver command starts the development server on the internal IP at port 8000.
 
+### Models diagram 
+![image](https://user-images.githubusercontent.com/44950256/175806962-fba61345-29c0-4dd5-b882-a67d9cf5819a.png)
+
 ### Server - 
 The server implemented using Django and provide one endpoint.
 
